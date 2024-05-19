@@ -1,4 +1,4 @@
-def month_to_season (month):
+def month_to_season(month):
     if month in [12, 1, 2]:
         return("Зима")
     elif month in [3, 4, 5]:
@@ -8,7 +8,7 @@ def month_to_season (month):
     elif month in [9, 10, 11]:
         return("Осень")
     else:
-        return ("Неверный номер месяца")
+        return "Неверный номер месяца"
     
 print(month_to_season (2))
 print(month_to_season (9))
